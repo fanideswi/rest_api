@@ -1,3 +1,4 @@
+<!--  -->
 <?php
 $data = file_get_contents('data/pizza.json');
 $menu = json_decode($data, true);
@@ -69,6 +70,7 @@ $menu = $menu["menu"];
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+     <!-- penggantian jquery -->
     <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
