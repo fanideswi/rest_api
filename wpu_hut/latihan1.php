@@ -49,6 +49,7 @@ $menu = $menu["menu"];
         </div>
     </div>
 
+    <!-- mengganti nama,harga, deskripsi -->
     <div class ="row">
         <?php foreach ($menu as $row) : ?>
         <div class="col-md-4">
