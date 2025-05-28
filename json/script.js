@@ -8,6 +8,7 @@
 // console.log(JSON.stringify(mahasiswa));
 
 // JSON KE OBJEK
+// JSON KE OBJEK
 // let xhr = new XMLHttpRequest();
 // xhr.onreadystatechange = function() {
 //     if (xhr.readyState == 4 && xhr.status == 200) {
