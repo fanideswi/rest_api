@@ -1,4 +1,4 @@
-<!--  -->
+<!-- mengambil file dari folder yang sama -->
 <?php
 $data = file_get_contents('data/pizza.json');
 $menu = json_decode($data, true);
@@ -40,6 +40,7 @@ $menu = $menu["menu"];
 </div>
 </nav>
 
+<!-- menampilkan  -->
 <div class ="container">
 
     <div class="row mt-3">
