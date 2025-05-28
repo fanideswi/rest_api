@@ -42,7 +42,7 @@ function searchMovie() {
         }
     });
 }
-
+// 
 $('#search-button').on('click', function() {
     searchMovie();
 });
