@@ -13,7 +13,7 @@
 //     ]
 // ];
 
-
+// mengambil database mahasiswa
 $dbh = new PDO('mysql:host=localhost;dbname=db_mahasiswa', 'root','root');
 $db = $dbh->prepare('SELECT * FROM mahasiswa');
 $db->execute();
