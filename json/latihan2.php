@@ -7,3 +7,4 @@ var_dump($mahasiswa);
 echo $mahasiswa[0]["pembimbing"]["pembimbing1"];
 
 ?>
+<!-- dicode mengambil file menjadi php -->
